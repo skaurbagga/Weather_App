@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" 
+    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="Enter city name: " spellcheck="false">
+            <button><i class="fa-solid fa-magnifying-glass-location fa-2x"></i></button>
+        </div>
+
+        <div class="error">
+            <p>Invalid city name</p>
+        </div>
+
+        <div class="weather">
+            <i class="fa-solid fa-cloud-rain fa-2x"></i>
+            <h1 class="temp">22</h1>
+            <h2 class="name">Mohali</h2>
+            <h2 class="description">Rain</h2>
+
+            <div class="details">
+                <div class="col">
+                    <i class="fa-solid fa-droplet fa-2x"></i>
+                    <div>
+                        <p class="humidity">50</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <i class="fa-solid fa-wind fa-2x"></i>
+                    <div>
+                        <p class="wind">5</p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
